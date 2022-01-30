@@ -1,0 +1,9 @@
+.terraform
+*.tfstate*
+.kitchen
+terraform.tfstate
+.terraform.lock.hcl
+Gemfile.lock
+.env
+.env-aws
+.environment
