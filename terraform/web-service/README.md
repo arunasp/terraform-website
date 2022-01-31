@@ -9,7 +9,7 @@ The website bucket is mounted on EC2 instances web directory directly. The (http
 Having shared storage across stateless instancess is allowing rapid on-demand AWS infratructure deployment.
 The website deployment process can be directly attached to automation pipelines in tools
 such as (https://docs.github.com/en/actions "GitHub Actions"), (https://www.jenkins.io/doc/ "Jenkins") and others.
-In comparison to AWS S3 web hosting the EC2 instances or Fargate ECS Docker containers are allowing tu run web scripts for dynamic content and use other services backends.
+In comparison to AWS S3 web hosting the EC2 instances or Fargate ECS Docker containers are allowing to run web scripts for dynamic content and use other services backends.
 
 The EC2 instances are running (https://httpd.apache.org/docs/ "Apache web server") installation.
 
